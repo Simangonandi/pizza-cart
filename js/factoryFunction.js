@@ -44,10 +44,10 @@ function cart() {
     }
 
     function priceUpdate() {
-        smallCost = (smallQty * 39).toFixed(2);
-        medCost = (medQty * 79).toFixed(2);
-        largeCost = (largeQty * 99).toFixed(2);
-        totalCart = (smallQty * 39.00 + medQty * 79.00 + largeQty * 99.00).toFixed(2);
+        smallCost = (smallQty * 49).toFixed(2);
+        medCost = (medQty * 89).toFixed(2);
+        largeCost = (largeQty * 129).toFixed(2);
+        totalCart = (smallQty * 49.00 + medQty * 89.00 + largeQty * 129.00).toFixed(2);
 
         return {
             smallCost,
